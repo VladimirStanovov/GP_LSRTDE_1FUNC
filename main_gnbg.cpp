@@ -1438,7 +1438,7 @@ Forest::Forest(const int new_NVars, const int new_MaxDepth, const int new_NInds,
     else
     {
         //ifstream fin_eq;
-        sprintf(buffer_fp,"/home/mpiscil/cloud/GP18_25_Results_LSRTDE_1FUNC/Results_25FRONT96_S4_C0_M0_R2_P1_T3_TR3_MD7_ML75_eq_R%d.txt",RunNum);
+        sprintf(buffer_fp,"/home/mpiscil/cloud/GP18_25_Results_LSRTDE_1FUNC/Results_25FRONT96_S4_C0_M0_R2_P1_T3_TR3_MD7_ML75_FT%d_eq_R%d.txt",func1test[global_funcontest],RunNum);
         //EqFilePath += buffer_fp;
         EqFilePath = buffer_fp;
         //fin_eq.open(EqFilePath.c_str());
